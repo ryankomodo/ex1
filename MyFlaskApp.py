@@ -29,5 +29,5 @@ def addprofile():
     return render_template("MyProfile.html",myname=myname,state_of_residence=state_of_residence)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0",port="5000")
 
